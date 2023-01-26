@@ -1,0 +1,16 @@
+id: '16747644110210.1900710511482091'
+definitionId: button
+parentSlotId: '16747643946320.7316887146410489'
+styles: {}
+properties:
+  name: button
+  gridItem:
+    x: 21
+    y: 0
+    w: 3
+    h: 2
+    maxH: 2
+    minH: 2
+    minW: 2
+index: 1
+slots: []
