@@ -1,0 +1,27 @@
+id: '16747634918890.7735246229681771'
+name: Home3
+url: home3
+roleIds: []
+disableInMenu: false
+parentPageId: '1'
+index: 0
+slots:
+  - id: '16747634918890.7712650509628951'
+    name: content
+    bindings: {}
+    children:
+      - id: '16747634918890.5327530554906545'
+        definitionId: grid
+        parentSlotId: '16747634918890.7712650509628951'
+        index: 0
+        styles: {}
+        properties:
+          name: grid3
+          pageTitle: '{{app.name}} - {{activeRoute.name}}'
+        actions: {}
+        slots:
+          - id: '16747634918890.09199921536177635'
+            name: content
+            bindings: {}
+            children:
+              - components/table3.yml

@@ -1,0 +1,24 @@
+id: '16747633807760.2881733684183543'
+name: Home2
+url: home2
+index: 1
+slots:
+  - id: '16747633807760.64575496443636'
+    name: content
+    bindings: {}
+    children:
+      - id: '16747633807770.2775873744868236'
+        definitionId: grid
+        parentSlotId: '16747633807760.64575496443636'
+        index: 0
+        styles: {}
+        properties:
+          name: grid2
+          pageTitle: '{{app.name}} - {{activeRoute.name}}'
+        actions: {}
+        slots:
+          - id: '16747633807770.3786023271743624'
+            name: content
+            bindings: {}
+            children:
+              - components/table2.yml
