@@ -1,0 +1,52 @@
+id: '16747644085500.48913264302968584'
+definitionId: selectWithAtomics
+parentSlotId: '16747643946320.7316887146410489'
+styles: {}
+properties:
+  options:
+    value:
+      - value: option_1
+        title: ''
+        __UIBAKERY__SYSTEM_ID__: '1'
+      - value: option_2
+        title: ''
+        __UIBAKERY__SYSTEM_ID__: '2'
+    dataValue: |-
+      [
+        {
+          "value": "option_1",
+          "title": "Option 1"
+        },
+        {
+          "value": "option_2",
+          "title": "Option 2"
+        }
+      ]
+    withData: true
+  name: select
+  gridItem:
+    x: 0
+    y: 0
+    w: 5
+    h: 2
+    maxH: 3
+    minH: 2
+    minW: 2
+  optionValueKey: value
+index: 0
+slots:
+  - id: '16747644085500.349822285304777'
+    name: optionViewTypes
+    children:
+      - id: '16747644085720.6738425857036947'
+        definitionId: atomicString
+        styles:
+          xl:
+            visible: true
+        properties:
+          name: atomicString22
+          prop: title
+          primaryKey: false
+        parentSlotId: '16747644085500.349822285304777'
+        index: 1
+        slots: []

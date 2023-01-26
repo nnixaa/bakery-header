@@ -4,3 +4,5 @@ metadata:
   code: ''
   title: '[Sample] Dashboard'
   description: ''
+appSettings:
+  actions: {}

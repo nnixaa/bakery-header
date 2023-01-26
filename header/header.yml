@@ -1,0 +1,16 @@
+id: '16747643946280.601321400975259'
+name: content
+children:
+  - id: '16747643946320.9884815065648689'
+    definitionId: layoutHeader
+    parentSlotId: '16747643946280.601321400975259'
+    styles: {}
+    properties:
+      name: layoutHeader
+    index: 0
+    slots:
+      - id: '16747643946320.7316887146410489'
+        name: content
+        children:
+          - components/select.yml
+          - components/button.yml
